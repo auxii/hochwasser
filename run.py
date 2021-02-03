@@ -54,7 +54,7 @@ while alive == True:
     def pushbullet_message(report, report_time):
         for i in range(10):
             msg = {"type": "note", "title": "Wasserpegel Limit erreicht um: " +report_time, "body": "Aktueller Wasserstand: " + report + " meter!"}
-            TOKEN = '#########'
+            TOKEN = 'ENTER_YOUR_TOKEN_HERE'
             resp = requests.post('https://api.pushbullet.com/v2/pushes',
                                  data=json.dumps(msg),
                                  headers={'Authorization': 'Bearer ' + TOKEN,

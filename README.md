@@ -1,6 +1,6 @@
 # Hochwasser-Alarm mit Push
 
-Skript der innerhalb kurzester Zeit entworfen wurde und diesbezüglich nicht mit vollständiger funktionsweise ausgestattet.
+Python Skript der innerhalb kurzester Zeit entworfen wurde und diesbezüglich nicht mit vollständiger funktionsweise ausgestattet.
 
 Dieser Schickt dir 10 Push Nachrichten auf deinem Smartphone, als Alarm beim Erreichen/Überlaufen der Festgelegten Grenze. 
 
