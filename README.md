@@ -4,7 +4,7 @@ Python Skript der innerhalb kurzester Zeit entworfen wurde und diesbezüglich ni
 
 Dieser Schickt dir 10 Push Nachrichten auf deinem Smartphone, als Alarm beim Erreichen/Überlaufen der Festgelegten Grenze. 
 
-![Hochwasseralarm Skript](https://i.ibb.co/n0d2Vbq/in-action.png)
+![Hochwasseralarm Skript](https://i.ibb.co/5hzPF1S/hochwasseralarm-in-action.png)
 
 ## Installation
 
