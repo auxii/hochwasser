@@ -39,7 +39,7 @@ while alive == True:
             #Second Limit Reached
             elif int(report) == limiter_2 or int(report) > limiter_2:
                 if report_date == today:
-                    print("Datum: " + report_date + " │ Uhrzeit:" + report_time + " │ Rheinstand: " + report + " Meter. FRÜHWARNUNG!")
+                    print("Datum: " + report_date + " │ Uhrzeit " + report_time + " │ Rheinstand: " + report + " Meter. FRÜHWARNUNG!")
                 else:
                     pass
 
@@ -60,7 +60,7 @@ while alive == True:
 
     def pushbullet_message(report, report_time):
         for i in range(10):
-            msg = {"type": "note", "title": "Wasserpegel Limit erreicht um: " +report_time, "body": "Aktueller Wasserstand: " + report + " meter!"}
+            msg = {"type": "note", "title": "Wasserpegel Limit erreicht um " +report_time, "body": "Aktueller Wasserstand: " + report + " meter!"}
             TOKEN = 'INSERT_YOUR_TOKEN_HERE'
             resp = requests.post('https://api.pushbullet.com/v2/pushes',
                                  data=json.dumps(msg),
