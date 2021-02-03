@@ -27,8 +27,6 @@ Eine Unabhängige Version ist jedoch in Entwicklung.
 ## Hardcoded Stuff
 Diese Sachen kann man Beliebig ändern:
 ```python
-import foobar
-
 limiter = 700 
 #Set your Alarm Limit for Notifications
 
