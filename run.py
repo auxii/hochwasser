@@ -12,7 +12,7 @@ alive = True
 
 while alive == True:
     def data_raw():
-        time.sleep(10)
+        time.sleep(1800)
         # Online Database for Data
         source = requests.get('https://www.hochwasser-rlp.de/karte/einzelpegel/flussgebiet/rhein/teilgebiet/mittelrhein/pegel/OBERWINTER/darstellung/tabellarisch').text
         soup = BeautifulSoup(source, 'lxml')
