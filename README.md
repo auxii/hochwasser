@@ -24,5 +24,22 @@ Momentan läuft dieser Script auf einem Debian Server!
 
 Eine Unabhängige Version ist jedoch in Entwicklung.
 
+## Hardcoded Stuff
+Diese Sachen kann man Beliebig ändern:
+```python
+import foobar
+
+limiter = 700 
+#Set your Alarm Limit for Notifications
+
+limiter_2 = 690 
+#Set your Warning Limit
+
+time.sleep(1800) 
+#Set Refresh-Rate for Data Pull in seconds
+#Default is 30 Minutes
+```
+Diese Variablen werden in Zukunft durch GUI ersetzt!
+
 ## Developer(s)
 - auxii#0001
