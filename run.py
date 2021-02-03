@@ -35,7 +35,7 @@ while alive == True:
                     #break
                 else:
                     print(
-                        "Datum: " + report_date + " │ Uhrzeit:" + report_time + " │ Rheinstand: " + report + " Meter" + " LIMIT WAS REACHED!")
+                        "Datum: " + report_date + " │ Uhrzeit: " + report_time + " │ Rheinstand: " + report + " Meter" + " LIMIT WAS REACHED!")
 
             else:
                 print("Datum: " + report_date + " │ Uhrzeit:" + report_time + " │ Rheinstand: " + report + " Meter")
